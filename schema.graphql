@@ -1,6 +1,6 @@
-type ExampleEntity @entity {
+type ApprovalSchema @entity {
   id: ID!
-  count: BigInt!
-  owner: Bytes! # address
   spender: Bytes! # address
+  amount: BigInt!
+  value: BigInt!
 }
